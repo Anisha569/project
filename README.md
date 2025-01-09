@@ -1,2 +1,1 @@
-# project
-hii guysss finallyyyyy account ban gyayaaa
+THIS IS MY FIRST PROJECT AFTER LEARNING HTML AND CSS
