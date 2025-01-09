@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav{
+height: 100px;
+width: 100%;
+background-color: black;
+border: 15px groove yellow;
+}
+
+.logo{
+    height: 80px;
+    width: 10%;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+h1{
+    color: yellow;
+    font-family: Algerian;
+    font-size: 35px;
+    float: inline-end;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 0%;
+    
+    
+}
+nav ul li{
+    display: flex;
+   list-style: none;
+    text-decoration: none;
+    width: 20%;
+    
+}
+nav ul li a{
+    display: flex;
+    color: yellow;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: aliceblue;
+}
+.coverpage{
+position: relative;
+height: 100vh;
+margin: 0%;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.covertext{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+    font-family: Algerian;
+    font-size: 70px;
+    color:white;
+    padding-right: 240px;
+    margin-left: 30px;
+   
+}
+
+.pera{
+background-color: black;
+color: rgb(8, 6, 6);
+font-size: 20px;
+background-color: yellow;
+left: 10%;
+}
+    
+.main5{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+   
+}
+.box2{
+    height: 500px;
+    width: 50%;
+    float: right;
+  
+}
+.box2 img{
+    height: 500px;
+    width: 50%%;
+    display: inline-flex;
+    padding-bottom: 0;
+    padding-left: 40px;
+   
+}
+h4{
+    font-family: Algerian;
+    font-size: 30px;
+}
+.pera2{
+    margin-top: 30px;
+}
+
+.box6{
+    background-color: lightyellow;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-family: Algerian;
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 500px;
+}
+.coverimg2{
+    position: relative;
+height: 100vh;
+margin: 0%;
+}
+.coverimg2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.covertext2{
+    position: absolute;
+    top: 20%;
+   
+   
+    text-align: left;
+    font-family: Algerian;
+    font-size: 20px;
+    color:white;
+   padding-top: 150px;
+    padding-right: 340px;
+    padding-left: 120px;
+    margin-bottom: 40px;
+    margin-left: %;
+}
+.covertext3{
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    border: 3px solid white;
+    padding-left: 30px;
+    padding-top: 20px;
+   
+}
+.sm{
+    font-size: 30px;
+    color: white;
+    padding-left: 200px;
+    margin-right: 47%;
+   
+   
+}
+
+label{
+    color: white;
+}
+input{
+    padding-right: 180px;
+}
+textarea{
+    padding-right: 180px;
+}
+.bt{
+    background-color: yellow;
+    border: 3px groove black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.bt:hover{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: yellow;
+    border: 3px groove black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    clear: both;
+}
+footer ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   
+}
+.b1{
+    border: 8px solid black;
+border-radius: 10px;
+padding-bottom: 30px;
+width: 30%;
+box-shadow:10px 10px 5px black;
+height: 400px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+.img1{
+    height: 300px;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 900px;
+    
+}
+.text{
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+.text h2{
+    font-size: 35px;
+    font-family: Algerian;
+    background-color: yellow;
+    color: black;
+}
+.b2{
+    border: 8px solid black;
+border-radius: 10px;
+padding-bottom: 30px;
+width:30% ;
+box-shadow:10px 10px 5px black;
+height: 400px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.img3{
+    height: 300px;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 800px;
+    
+}
+.text2{
+    text-align: center;
+    background-color: rgb(226, 226, 45);
+    color: rgb(12, 12, 12);
+}
+.text2 h2{
+    font-size: 35px;
+    font-family: Algerian;
+    background-color: black;
+    color: rgb(250, 248, 248);
+}
+.b3{
+    border: 8px solid yellow;
+border-radius: 10px;
+padding-bottom: 30px;
+width:30% ;
+box-shadow:10px 10px 5px yellow;
+height: 400px;
+padding-right: 10px;
+padding-left: 20px;
+
+}
+.main2{
+    display: flex;
+justify-content: center;
+}
+.img4{
+    height: 300px;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 800px;
+    
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size: 35px;
+    font-family: Algerian;
+}
+
+.main3{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   
+}
+.b5{
+    border: 8px solid black;
+border-radius: 10px;
+padding-bottom: 30px;
+width: 30%;
+box-shadow:10px 10px 5px black;
+height: 400px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.img5{
+    height: 300px;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 800px;
+    
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size: 35px;
+    font-family: Algerian;
+}
+.b6{
+    border: 8px solid black;
+border-radius: 10px;
+padding-bottom: 30px;
+width:30% ;
+box-shadow:5px 5px 10px 10px black;
+height: 400px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.img6{
+    height: 300px;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 800px;
+    
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size: 35px;
+    font-family: Algerian;
+}
